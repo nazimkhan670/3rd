@@ -1,465 +1,501 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 0 163px;
-    /**background: rgb(224, 110, 110);**/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 163px;
+  /**background: rgb(224, 110, 110);**/
 }
 .name {
-    display: flex;
-    text-transform: uppercase;
-    color: rgb(41, 8, 160);
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  text-transform: uppercase;
+  color: rgb(41, 8, 160);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .name .second {
-    color: rgb(11, 51, 230);
-    padding: 0 5px;
+  color: rgb(11, 51, 230);
+  padding: 0 5px;
 }
 .navbar-list {
-    display: flex;
-    list-style: none;
-    gap: 4rem;
-    color: white;
-    text-decoration: none;
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  color: white;
+  text-decoration: none;
 }
 .navbar-list .link {
-    color: rgb(128, 122, 122);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500;
-    display: inline-block;
+  color: rgb(128, 122, 122);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  display: inline-block;
 }
 
 .navbar-list a .navbar-btn {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 4px 8px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background: rgb(113, 126, 247);
-    cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: rgb(113, 126, 247);
+  cursor: pointer;
 }
 .para {
-    padding: 0px 100px;
-    display: flex;
-    
-    align-items: center;
+  padding: 0px 100px;
+  display: flex;
+
+  align-items: center;
 }
 .para .left {
-
 }
 .para .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: 250px;
-    top: -30px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 250px;
+  top: -30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
 }
 .para h2 {
-    padding: 20px 0;
-    color: rgb(87, 108, 177);
+  padding: 20px 0;
+  color: rgb(87, 108, 177);
 }
 .para .para-heading {
-    padding: 0px 0px;  
-    font-size: 35px;
-    font-family: cursive;
-    color: rgb(17, 17, 92);
+  padding: 0px 0px;
+  font-size: 35px;
+  font-family: cursive;
+  color: rgb(17, 17, 92);
 }
 .para p {
-    font-size: 20px;
-    font-family: -apple-system, 'Segoe UI', Roboto ;
-    color: rgb(128, 122, 122);
-    padding-top: 20px;
+  font-size: 20px;
+  font-family: -apple-system, "Segoe UI", Roboto;
+  color: rgb(128, 122, 122);
+  padding-top: 20px;
 }
-.para .left .circle-2 {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: 500px;
-    top: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 10px rgb(208, 208, 252),
-     0px 0px 50px 20px rgb(211, 211, 247), 
-     0px 0px 60px 30px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-   
-}
-.para .picture {
-    position: relative;
-    display: flex;
 
+.para .left .circle-2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 500px;
+  top: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 10px rgb(208, 208, 252),
+    0px 0px 50px 20px rgb(211, 211, 247), 0px 0px 60px 30px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
 }
-.para .picture .img img{
-    width: 400px;
-    height: 400px;
-    padding:  10px;
-    margin-left: 200px;
-    margin-top: 0px;
+
+.para .picture {
+  position: relative;
+  display: flex;
+  background-color: red;
+}
+.para .picture .img img {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 0px;
 }
 .para .picture .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -30px;
-    top: 200px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-   
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -30px;
+  top: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
 }
 .heading-second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 70px;
 }
 .heading-second .h-1 {
-    color: rgb(11, 51, 230);
-    padding: 0 20px;
+  color: rgb(11, 51, 230);
+  padding: 0 20px;
 }
 .heading-second .h-2 {
-    color: rgb(41, 8, 160);
+  color: rgb(41, 8, 160);
 }
 .heading-second .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -600px;
-    top: 100px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -600px;
+  top: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
 .skills {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 163px;
-    font-family: Calibri;
-    margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 163px;
+  font-family: Calibri;
+  margin: 100px 0;
 }
 
 .skills .skill-1 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 .skills .p-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .skills .c-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h2 {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .skills .skill-1 .s-1 {
-    width: 250px;
-    height: 150px;
-    z-index: 2;
+  width: 250px;
+  height: 150px;
+  z-index: 2;
 }
 
 .skills .skill-2 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 
 .skills .skill-2 .s-2 {
-    width: 250px;
-    height: 150px;
+  width: 250px;
+  height: 150px;
 }
 
 .skills .skill-3 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 .skills .skill-3 .s-3 {
-    width: 250px;
-    height: 150px;
+  width: 250px;
+  height: 150px;
 }
 .skills .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -380px;
-    top: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -380px;
+  top: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
 
 /*----portfolio ----*/
 
 .heading-second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 250px;
 }
 .heading-second .h-1 {
-    color: rgb(11, 51, 230);
-    padding: 0 20px;
+  color: rgb(11, 51, 230);
+  padding: 0 20px;
 }
 .heading-second .h-2 {
-    color: rgb(41, 8, 160);
+  color: rgb(41, 8, 160);
 }
 .heading-second .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -600px;
-    top: 100px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -600px;
+  top: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
 .portfolio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 163px;
-    font-family: Calibri;
-    margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 163px;
+  font-family: Calibri;
+  margin: 100px 0;
 }
 
 .portfolio .skill-1 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 .portfolio .p-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio .c-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h2 {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .portfolio .skill-1 .s-1 {
-    width: 250px;
-    height: 150px;
-    z-index: 2;
+  width: 250px;
+  height: 150px;
+  z-index: 2;
 }
 
 .portfolio .skill-2 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 
 .portfolio .skill-2 .s-2 {
-    width: 250px;
-    height: 150px;
+  width: 250px;
+  height: 150px;
 }
 
 .portfolio .skill-3 {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.4px 0.4px 10px 1px rgb(177, 176, 176);
 }
 .portfolio .skill-3 .s-3 {
-    width: 250px;
-    height: 150px;
+  width: 250px;
+  height: 150px;
 }
 .portfolio .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -380px;
-    top: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -380px;
+  top: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
-
 
 /*----contact me ----*/
 
 .heading-second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 250px;
 }
 .heading-second .h-1 {
-    color: rgb(11, 51, 230);
-    padding: 0 20px;
+  color: rgb(11, 51, 230);
+  padding: 0 20px;
 }
 .heading-second .h-2 {
-    color: rgb(41, 8, 160);
+  color: rgb(41, 8, 160);
 }
 .heading-second .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -600px;
-    top: 100px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -600px;
+  top: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
 .contact-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 163px;
-    font-family: Calibri;
-    margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 163px;
+  font-family: Calibri;
+  margin: 100px 0;
 }
 .contact-me .c-1 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-me .skill-1 .test{
-    width: 150px;
-    height: 150px;
-    background: rgb(223, 39, 39);
-    clip-path: polygon(90% 8%, 100% 43%, 88% 80%, 49% 89%, 45% 60%, 25% 63%, 13% 42%, 31% 17%, 51% 4%);
+.contact-me .skill-1 .test {
+  width: 150px;
+  height: 150px;
+  background: rgb(223, 39, 39);
+  clip-path: polygon(
+    90% 8%,
+    100% 43%,
+    88% 80%,
+    49% 89%,
+    45% 60%,
+    25% 63%,
+    13% 42%,
+    31% 17%,
+    51% 4%
+  );
 }
 
-.contact-me .skill-2 .test{
-    width: 150px;
-    height: 150px;
-    background: rgb(223, 39, 39);
-    clip-path: polygon(90% 8%, 100% 43%, 88% 80%, 49% 89%, 45% 60%, 25% 63%, 13% 42%, 31% 17%, 51% 4%);
+.contact-me .skill-2 .test {
+  width: 150px;
+  height: 150px;
+  background: rgb(223, 39, 39);
+  clip-path: polygon(
+    90% 8%,
+    100% 43%,
+    88% 80%,
+    49% 89%,
+    45% 60%,
+    25% 63%,
+    13% 42%,
+    31% 17%,
+    51% 4%
+  );
 }
 
-.contact-me .skill-3 .test{
-    width: 150px;
-    height: 150px;
-    background: rgb(223, 39, 39);
-    clip-path: polygon(90% 8%, 100% 43%, 88% 80%, 49% 89%, 45% 60%, 25% 63%, 13% 42%, 31% 17%, 51% 4%);
+.contact-me .skill-3 .test {
+  width: 150px;
+  height: 150px;
+  background: rgb(223, 39, 39);
+  clip-path: polygon(
+    90% 8%,
+    100% 43%,
+    88% 80%,
+    49% 89%,
+    45% 60%,
+    25% 63%,
+    13% 42%,
+    31% 17%,
+    51% 4%
+  );
 }
 .contact-me .circle {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -380px;
-    top: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
-     0px 0px 50px 30px rgb(211, 211, 247), 
-     0px 0px 60px 50px rgb(222, 222, 243);
-    background: rgb(200, 200, 252);
-    z-index: -40;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -380px;
+  top: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 20px rgb(208, 208, 252),
+    0px 0px 50px 30px rgb(211, 211, 247), 0px 0px 60px 50px rgb(222, 222, 243);
+  background: rgb(200, 200, 252);
+  z-index: -40;
 }
 
-.contact-me .skill-4 .test{
-    width: 150px;
-    height: 150px;
-    background: rgb(223, 39, 39);
-    clip-path: polygon(90% 8%, 100% 43%, 88% 80%, 49% 89%, 45% 60%, 25% 63%, 13% 42%, 31% 17%, 51% 4%);
+.contact-me .skill-4 .test {
+  width: 150px;
+  height: 150px;
+  background: rgb(223, 39, 39);
+  clip-path: polygon(
+    90% 8%,
+    100% 43%,
+    88% 80%,
+    49% 89%,
+    45% 60%,
+    25% 63%,
+    13% 42%,
+    31% 17%,
+    51% 4%
+  );
 }
 .last-section {
-    width: 100%;
-    height: 200px;
-    background: rgb(52, 65, 243);
-    clip-path: polygon(35% 35%, 57% 34%, 71% 51%, 100% 0, 100% 100%, 0 100%, 0 50%, 15% 40%, 21% 58%);
+  width: 100%;
+  height: 200px;
+  background: rgb(52, 65, 243);
+  clip-path: polygon(
+    35% 35%,
+    57% 34%,
+    71% 51%,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 50%,
+    15% 40%,
+    21% 58%
+  );
 }
 .last-section h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
